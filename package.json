@@ -17,11 +17,16 @@
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
-    "posttest": "npm run check"
+    "posttest": "npm run check",
+    "watch": "nodemon src/index.ts"
   },
   "devDependencies": {
     "gts": "^2.0.0",
     "typescript": "~3.8.0",
     "@types/node": "^10.0.3"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.3",
+    "rxjs": "^6.5.5"
   }
 }
