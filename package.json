@@ -18,7 +18,7 @@
     "prepare": "npm run compile",
     "pretest": "npm run compile",
     "posttest": "npm run check",
-    "watch": "nodemon src/index.ts"
+    "watch": "ts-node src/index.ts"
   },
   "devDependencies": {
     "gts": "^2.0.0",
@@ -26,7 +26,6 @@
     "@types/node": "^10.0.3"
   },
   "dependencies": {
-    "nodemon": "^2.0.3",
-    "rxjs": "^6.5.5"
+    "rxjs": "^6.5.5"    
   }
 }
